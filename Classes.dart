@@ -6,12 +6,19 @@ void main() {
   print(cookie.size);
   cookie.baking();
   cookie.isCooling();
+
   // printing the private variable
   print(cookie.height);
+
   // setting the private value using setter
   cookie.setHeight = 12;
   print(cookie.height);
 
+  // calling static variables and methods
+
+  print(testing.sentence);
+  print(testing.xy);
+  print(testing.giveMeSomeValue());
 }
 
 class Cookie {
@@ -39,5 +46,17 @@ class Cookie {
 
   bool isCooling() {
     return false;
+  }
+}
+
+// Statics valriable and method
+
+class testing {
+  static int xy = 55;
+  static String sentence =
+      " This is a test string to check how to print static value";
+
+  static int giveMeSomeValue() {
+    return xy;
   }
 }
