@@ -6,6 +6,7 @@ void main() {
   print("student id = $id");
   print("Student name = $name");
   print("The Student is Alive= $Alive");
+  print(magicFun());
 }
 
 void display() {
@@ -30,4 +31,11 @@ int? EnterAge() {
 
 (int, String, bool) studentDetails() {
   return (001, "Rahul", true);
+}
+
+Function magicFun() {
+  return () 
+  {
+    print("printing function inside a fucntion.");
+  };
 }
