@@ -35,7 +35,8 @@ void main() {
   print(float);
 
   // num  is a datatype that can store both int and double
-
+  // int? a; // null safety
+  // int a = null; // error
   num seven = 7;
   num six = 6.23;
   print(seven + six);
