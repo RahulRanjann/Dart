@@ -34,6 +34,14 @@ void main() {
   dynamic float = 7.1254;
   print(float);
 
+  String FullName = "Rahul Ranjan";
+  print(FullName);
+  String FirstName = "Rahul";
+  String LastName = "Ranjan";
+  print(FirstName + " " + LastName);
+  print(FirstName + LastName);
+  print(FirstName * 3);
+
   // num  is a datatype that can store both int and double
   // int? a; // null safety
   // int a = null; // error
