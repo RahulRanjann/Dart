@@ -1,0 +1,18 @@
+void main()
+{
+    var map_name = {
+        'key1': 'value1',
+        'key2': 2,
+        'key3': false,
+        'key4': 3.25
+    };
+    
+    print(map_name);
+    print(map_name["key2"]);
+    map_name['key5'] = "Raman";
+    print(map_name);
+    
+    
+
+
+}
