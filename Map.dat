@@ -6,13 +6,21 @@ void main()
         'key3': false,
         'key4': 3.25
     };
+
+    var Image ={
+        "name": "Saturn",
+        "path": "./image/Saturn.jpg",
+    };
     
+
     print(map_name);
     print(map_name["key2"]);
     map_name['key5'] = "Raman";
     print(map_name);
     
-    
+    print(Image);
+    print(Image["name"]);
+    print(Image["path"]);
 
 
 }
